@@ -1,0 +1,493 @@
+body {
+	padding-top: 70px;
+}
+
+/* USEFUL CLASSES */
+.secondary {
+    font-size: 0.85em;
+}
+.ternary {
+    font-size: 0.7em;
+}
+
+.hidden,
+.js .hide-if-js,
+.no-js .hide-if-no-js {
+    display: none;
+}
+
+
+/* MAIN STYLING */
+#content h2:first-child {
+	margin-top: 0;
+}
+
+#gp-footer p {
+	background: #f5f5f5;
+	margin: 10px 0;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/* LOGIN */
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+/* PERMISSIONS */
+.permissions .user {
+    font-weight: bold;
+}
+.permissions .permission-action {
+    font-style: italic;
+    color: #999;
+}
+
+/* PERSONAL OPTIONS */
+.personal-options #source-url-template {
+    width: 20em;
+}
+
+
+/* FORMS */
+.form-left .control-label {
+	text-align: left;
+}
+
+/* BULK ACTIONS */
+.bulk-actions input {
+	margin-right: 8px;
+}
+
+/* PAGINATION */
+.pagination {
+	margin: 0;
+}
+
+
+/* TABLE SORTER */
+.tablesorter th.header {
+	background-repeat: no-repeat;
+	background-position: center right 4px;
+	cursor: pointer;
+}
+
+.tablesorter th.headerSortUp { 
+	background-image: url(../images/asc.gif);
+	background-color: #3399FF;
+}
+
+.tablesorter th.headerSortDown { 
+	background-image: url(../images/desc.gif);
+	background-color: #3399FF;
+}
+
+
+/* GLOSSARY */
+.glossary-description {
+    height: 150px;
+}
+
+.glossary td {
+    padding: 0.5em 0.75em;
+}
+
+.glossary tr {
+    background-color: #fcfcfc;
+}
+.glossary tr:nth-child(4n+1) {
+    background-color: #fff;
+}
+.glossary tr.active {
+    background-color: #F8FFEC;
+}
+
+.glossary td.actions {
+    text-align: center;
+}
+
+.glossary td.actions ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.glossary td.actions ul li{
+    display: inline;
+    padding-right: 10px;
+}
+
+.glossary td.actions ul a {
+    background: none;
+}
+
+.glossary-word {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom:1px dashed;
+    cursor: help;
+}
+
+.ui-tooltip {
+    background-color: #eee;
+    margin: 2px;
+    padding: 6px;
+    text-align: left;
+    max-width: 250px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.ui-tooltip ul {
+    list-style-type: none;
+    margin: 2px;
+    padding-left: 10px;
+}
+.ui-tooltip ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-tooltip .pos {
+    display:inline-block;
+    font-style: italic;
+    padding-right: 10px;
+}
+.ui-tooltip .translation{
+    font-weight: bold;
+}
+.ui-tooltip .comment {
+    display: block;
+    font-size: small;
+}
+
+.ui-tooltip:after {
+    display: block;
+    content: "";
+    border-color: #eee transparent;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    width: 0;
+    position: absolute;
+    top: -8px;
+    left: 1em;
+}
+
+#add-entry input {
+    width: 200px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Old stuff */
+table.translations td.translation li {
+    padding-bottom: 0.25em;
+    border-bottom: 1px dotted #ccc;
+}
+table.translations td.translation li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+table.translations td.translation span.missing {
+    color: #ddd;
+    font-style: italic;
+}
+table.translations td.translation span.missing a {
+    color: #ccc;
+    font-style: italic;
+}
+
+table.translations td, table.translations th,
+table.translation-sets td, table.translation-sets th,
+table.glossary td, table.glossary th
+{
+	padding: 0.5em;
+	border: 1px solid #eee;
+	margin: 0;
+	border-spacing: 0;
+}
+
+table.translations td.priority {
+    text-align: center;
+    font-size: 1.3em;
+}
+table.translations td.actions {
+    text-align: center;
+}
+table.translations.translation-sets-rtl .foreign-text {
+	direction: rtl;
+}
+
+table.translations td.original, table.translations td.translation {
+    width: 45%;
+  	word-break: break-word;
+	word-wrap: break-word;
+}
+
+table.translations tr.even {
+	background-color: #fcfcfc;
+}
+table.translations tr.editor {
+	background-color: #F8FFEC;
+	display: none;
+}
+table.translations tr.preview.status-fuzzy, #legend .status-fuzzy {
+	background-color: #FC6;
+}
+table.translations tr.preview.status-current, #legend .status-current  {
+	background-color: #E9FFD8;
+}
+table.translations tr.preview.status-old, #legend .status-old {
+	background-color: #FEE4F8;
+}
+table.translations tr.preview.status-waiting, #legend .status-waiting {
+	background-color: #FFFFC2;
+}
+table.translations tr.preview.status-rejected, #legend .status-rejected {
+	background-color: #FF8E8E;
+}
+table.translations tr.preview.has-warnings td.original, div#legend div.has-warnings {
+    border-left: 2px solid red;
+}
+
+table.translations a.action {
+    font-size: 100%;
+    font-style: normal;
+}
+
+
+.separator {
+	font-size: 80%;
+	margin: 0.25em;
+}
+
+.editor .original {
+	font-weight: bold;
+	white-space: pre-wrap;
+}
+.editor .strings {
+    float: left;
+    width: 60%;
+}
+.editor .strings p.plural-numbers {
+    margin-bottom: 0;
+    color: #555;
+    font-size: 0.75em;
+}
+.editor .strings p.plural-numbers span.numbers {
+    font-weight: bold;
+}
+.editor .textareas, .editor .actions {
+	clear: both;
+}
+.editor .textareas textarea {
+    width: 100%;
+    min-height: 8em;
+}
+.editor .meta {
+	float: left;
+	margin-left: 2em;
+}
+.editor .meta dl {
+    margin: 0.1em 1em;
+}
+.editor .meta dt, .editor .meta dd {
+    display: inline;
+    margin: 0;
+}
+.editor .meta dt {
+    margin-right: 0.5em;
+}
+.editor .meta dt {
+    margin-right: 0.5em;    
+}
+.editor .meta dd {
+    color: #444;
+    font-weight: bold;
+}
+
+#gp-js-message {
+	position: fixed;
+	top: 0;
+	padding: 0.5em;
+	display: none;
+	font-size: 85%;
+	z-index: 1001;
+}
+.gp-js-error, .error {
+	color: white;
+	background-color: red;	
+}
+.gp-js-notice, .notice {
+	color: #222;
+	background-color: #FDDF9D;
+}
+.gp-js-success {
+	color: white;
+	background-color: #00DA12;
+}
+.notice, .error {
+	clear: both;
+	padding: 0.5em;    
+}
+
+form.filters-toolbar > div {
+	line-height: 2em;
+}
+form.filters-toolbar ul {
+    list-style-type: none;    
+}
+form.filters-toolbar a.revealing {
+    text-decoration: none;
+}
+form.filters-toolbar a.revealing, form.filters-toolbar .separator {
+    margin-bottom: 0;
+}
+form.filters-toolbar a.revealing.open {
+    font-weight: bold;
+}
+form.filters-toolbar a.revealing:first-child {
+    margin-left: 0.5em;
+}
+form.filters-toolbar strong.separator {
+    font-size: 1.8em;
+    vertical-align: bottom;
+}
+dl.filters-expanded {
+	float: left;
+    font-size: 80%;    
+    padding: 0.8em;
+    margin: 0 0 0.5em 0.2em;
+    background-color: #eee;
+    border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+}
+dl.filters-expanded dt, dl.filters-expanded dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+dl.filters-expanded dt {
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+dl.filters-expanded dd {
+    margin-right: 2em;
+}
+dl.filters-expanded dd.separator {
+    border-left: 1px dotted #777;
+    height: 4em;
+    width: 1em;
+}
+dl.filters-expanded.bulk-actions a {
+    display: block;
+}
+dl.filters-expanded dt p:first-child, dl.filters-expanded dd p:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.invisibles {
+    color: #888;
+    font-size: 85%;
+    padding: 0;
+    margin-left: 2px;
+}
+
+
+
+.warning {
+    background-color: white;
+    color: #E44B3E;
+    border: 1px solid #E44B3E;
+    margin: 1em 0;
+    padding: 0.5em;
+}
+.warning:after { 
+    clear:both; 
+    content: ""; 
+    display: block; 
+} 
+.warning a.discard-warning {
+    float: right;
+}
+
+p.description {
+	max-width: 60em;
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 3px solid #aaa;
+	margin-top: -0.75em;
+}
+span.added {
+    color: green;
+}
+span.removed {
+    color: red;
+}
+#legend {
+    margin-top: 1em;
+}
+#legend div {
+    margin-right: .5em;
+    float: left;
+    line-height: 1.5em;
+}
+#legend .box {
+    border: 1px solid #ccc;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0;
+}
+.gp-content .text {
+	width: 45em;
+	margin-left: 6em;
+}
+
+
+#profile .panel-default {
+    padding: 15px;
+}
