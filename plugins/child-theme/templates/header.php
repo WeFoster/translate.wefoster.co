@@ -28,7 +28,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="<?php echo gp_url( '/' ); ?>" rel="home">
-					<img src="http://translate.wefoster.co/plugins/child-theme/templates/images/logo.png" alt="">
+					<img src="//translate.wefoster.co/plugins/child-theme/templates/images/logo.png" alt="">
 				</a>
 			</div>
 
