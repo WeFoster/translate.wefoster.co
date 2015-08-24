@@ -12,7 +12,7 @@ gp_tmpl_header();
 		<?php _e( 'Filter:' ); ?> <input id="locales-filter" type="text" placeholder="<?php esc_attr_e('search'); ?>" />
 	</div>
 
-	<table class="tablesorter locales">
+	<table class="tablesorter table table-striped locales">
 		<thead>
 		<tr>
 			<th class="header"><?php _e( 'Name (in English)' );?></th>

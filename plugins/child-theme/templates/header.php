@@ -13,6 +13,13 @@
 	<![endif]-->
 
 	<?php gp_head(); ?>
+
+	<script type="text/javascript">
+	//Add Table Styling
+jQuery('table').addClass('table table-striped');
+	</script>
+
+
 </head>
 
 <body <?php body_class(); ?>>
