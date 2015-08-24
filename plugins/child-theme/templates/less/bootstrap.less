@@ -17,8 +17,24 @@ WeFoster.co
 @import "../../../../../wefoster-development/wp-content/themes/wefoster/assets/less/layout/layout.less";
 @import "../../../../../wefoster-development/wp-content/themes/wefoster/assets/less/layout/footer.less";
 
-.intro {
-  color: @gray;
-  font-size: 90%;
-  margin-bottom: @margin-full;
+.container {
+  
+  .intro {
+    color: @gray;
+    font-size: 90%;
+    margin-bottom: @margin-full;
+  }
+  
+
+  p.description {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+
+  .breadcrumb {
+    li:last-child a {
+      font-weight: bold;
+    }
+  }
 }

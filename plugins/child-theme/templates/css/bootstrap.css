@@ -6912,8 +6912,15 @@ body.wefoster-navbar-fixed-top {
   border-top: 1px solid #505662;
   color: #767676;
 }
-.intro {
+.container .intro {
   color: #767676;
   font-size: 90%;
   margin-bottom: 30px;
+}
+.container p.description {
+  margin-left: 0;
+  margin-top: 0;
+}
+.container .breadcrumb li:last-child a {
+  font-weight: bold;
 }
