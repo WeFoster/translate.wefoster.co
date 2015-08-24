@@ -28,11 +28,17 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="<?php echo gp_url( '/' ); ?>" rel="home">
-					<img src="//translate.wefoster.co/plugins/child-theme/templates/images/logo.png" alt="">
+					<img src="https://translate.wefoster.co/plugins/child-theme/templates/images/logo.png" alt="">
 				</a>
 			</div>
 
 			<nav class="collapse navbar-collapse navbar-content" role="navigation">
+
+				<ul class="nav navbar-nav sm" id="support-tabs">
+<li><a href="<?php gp_url(); ?>/projects" data-toggle="tab" data-original-title="" title="">Projects</a></li>
+<li><a href="<?php gp_url(); ?>/languages" data-toggle="tab" data-original-title="" title="">Languages</a></li>
+</ul>
+
 				<ul class="nav navbar-nav navbar-right">
 
 					<?php
