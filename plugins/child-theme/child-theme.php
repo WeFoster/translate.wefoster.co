@@ -54,7 +54,7 @@ class GP_Bootstrap_Theme extends GP_Plugin {
 		$styles->remove( 'base' );
 
 		$styles->add( 'base', gp_url_base_root() .'plugins/child-theme/templates/css/base.css', array( 'bootstrap' ), self::version );
-		$styles->add( 'bootstrap', gp_url_base_root() .'plugins/child-theme/templates/css/bootstrap.min.css', array(), self::bootstrap_version );
+		$styles->add( 'bootstrap', gp_url_base_root() .'plugins/child-theme/templates/css/bootstrap.css', array(), self::bootstrap_version );
 	}
 
 	public function wp_print_styles() {

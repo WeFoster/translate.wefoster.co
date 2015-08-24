@@ -28,7 +28,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="<?php echo gp_url( '/' ); ?>" rel="home">
-					<?php echo defined('GP_TITLE') ? GP_TITLE : 'GlotPress'; ?>
+					<img src="http://translate.wefoster.dev/plugins/child-theme/templates/images/logo.png" alt="">
 				</a>
 			</div>
 

@@ -5,6 +5,12 @@ gp_tmpl_header();
 
 		<h2><?php printf( __('Projects') ); ?></h2>
 
+		<p class="intro">Hi there! Here we translate all of the WeFoster Plugins and Themes.
+
+If you have an account on WeFoster.co you can use that account to login here, and join our community of translators! Please take a look at our Translators Group to learn more about contributing and the (awesome) rewards it can earn you!</p>
+
+
+		<h4> Choose a product..</h4>
 		<ul class="list-group">
 		<?php foreach($projects as $project): ?>
 			<li class="list-group-item">
@@ -22,6 +28,6 @@ gp_tmpl_header();
 			<?php endif; ?>
 		</p>
 
-		
+
 
 <?php gp_tmpl_footer();
