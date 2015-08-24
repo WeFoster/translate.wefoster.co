@@ -13,6 +13,10 @@ gp_tmpl_header();
 
 			<?php do_action( 'before_login_form' ); ?>
 
+			<div class="intro">
+				Please use your WeFoster.co login credentials to login. No account yet? <a href="https://wefoster.co/create-your-account/">Register an account!</a>
+			</div>
+
 			<input name="user_login" type="text" class="form-control" placeholder="<?php _e('Username'); ?>" required="" autofocus="">
 			<input name="user_pass" type="password" class="form-control" placeholder="<?php _e('Password'); ?>" required="">
 

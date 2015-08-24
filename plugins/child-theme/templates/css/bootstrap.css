@@ -6921,6 +6921,15 @@ body.wefoster-navbar-fixed-top {
   margin-left: 0;
   margin-top: 0;
 }
+.container .form-signin {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+.container .form-signin input,
+.container .form-signin .btn {
+  width: 50% !important;
+}
 .container .breadcrumb li:last-child a {
   font-weight: bold;
 }
