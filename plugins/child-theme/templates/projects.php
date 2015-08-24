@@ -10,7 +10,7 @@ gp_tmpl_header();
 If you have an account on WeFoster.co you can use that account to login here, and join our community of translators! Please take a look at our Translators Group to learn more about contributing and the (awesome) rewards it can earn you!</p>
 
 
-		<h4> Choose a product..</h4>
+		<h4> Choose a product to see the translations..</h4>
 		<ul class="list-group">
 		<?php foreach($projects as $project): ?>
 			<li class="list-group-item">

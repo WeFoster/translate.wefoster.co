@@ -38,3 +38,33 @@ WeFoster.co
     }
   }
 }
+
+
+@media(min-width:992px) {
+  #content.container {
+    width: 1140px;
+  }
+}
+
+
+#content.container {
+  padding: @padding-full;
+  background: @white;
+  
+  h2 {
+    font-weight: 300;
+    
+    span {
+      font-weight: bold;
+    }
+  }
+  
+
+  h2:first-child {
+    background: none repeat scroll 0 0 @brand-complimentary;
+    color: @white;
+    font-size: 160%;
+    margin: -@margin-full -@margin-full @margin-full;
+    padding: @padding-half @padding-full;
+  }
+}

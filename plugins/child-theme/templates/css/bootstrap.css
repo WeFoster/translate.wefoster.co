@@ -6924,3 +6924,25 @@ body.wefoster-navbar-fixed-top {
 .container .breadcrumb li:last-child a {
   font-weight: bold;
 }
+@media (min-width: 992px) {
+  #content.container {
+    width: 1140px;
+  }
+}
+#content.container {
+  padding: 30px;
+  background: #ffffff;
+}
+#content.container h2 {
+  font-weight: 300;
+}
+#content.container h2 span {
+  font-weight: bold;
+}
+#content.container h2:first-child {
+  background: none repeat scroll 0 0 #3abb9a;
+  color: #ffffff;
+  font-size: 160%;
+  margin: -30px -30px 30px;
+  padding: 15px 30px;
+}

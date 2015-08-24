@@ -20,7 +20,7 @@ $i = 0;
 ?>
 
 		<h2>
-			<?php printf( __("Translation of %s"), esc_html( $project->name )); ?>: <?php echo esc_html( $translation_set->name ); ?>
+			<?php printf( __("Translation of %s"), esc_html( $project->name )); ?>: <span><?php echo esc_html( $translation_set->name ); ?></span>
 			<?php gp_link_set_edit( $translation_set, $project, __('Edit'), array( 'class' => 'btn btn-xs btn-primary' ) ); ?>
 
 			<?php
@@ -176,7 +176,7 @@ $i = 0;
 
 			<?php
 			if ( $glossary ) {
-				$translations = map_glossary_entries_to_translations_originals( $translations, $glossary ); 
+				$translations = map_glossary_entries_to_translations_originals( $translations, $glossary );
 			}
 
 			foreach( $translations as $t ) {

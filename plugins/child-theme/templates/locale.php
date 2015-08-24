@@ -7,7 +7,7 @@ gp_breadcrumb( array(
 gp_tmpl_header();
 ?>
 
-	<h2><?php printf( __( 'Active Projects translated to %s' ), esc_html( $locale->english_name ) ); ?></h2>
+	<h2><?php printf( __( 'Active Projects translated to %s' ), '<span>' . esc_html( $locale->english_name ) . '</span>' ); ?></h2>
 
 	<?php
 	if ( empty( $projects_data ) ) {
